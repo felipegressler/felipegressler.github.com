@@ -144,7 +144,8 @@ function to_top() {
 
 function go_to_next() {
 	var gallery_padding = $('#gallery').css('padding');
-	var margin_top = parseInt(gallery_padding);
+	var legenda_height = $('.legenda').css('height');
+	var margin_top = parseInt(gallery_padding) - parseInt(legenda_height)/5;
 	
 	var image_position_no_margin = $('.not_viewed').first().offset().top;
     var image_position = image_position_no_margin - margin_top;
@@ -156,7 +157,8 @@ function go_to_next() {
 
 function go_to_previous() {
 	var gallery_padding = $('#gallery').css('padding');
-	var margin_top = parseInt(gallery_padding);
+	var legenda_height = $('.legenda').css('height');
+	var margin_top = parseInt(gallery_padding) - parseInt(legenda_height)/5;
 	
     var image_position_no_margin = $('.viewed').last().offset().top;
 	var image_position = image_position_no_margin - margin_top;
@@ -248,7 +250,8 @@ function go_to_image() {
 	var position = number_of_divs - divs_before;
 	
 	var gallery_padding = $('#gallery').css('padding');
-	var margin_top = parseInt(gallery_padding);
+	var legenda_height = $('.legenda').css('height');
+	var margin_top = parseInt(gallery_padding) - parseInt(legenda_height)/5;
 	
     var image_position_no_margin= $('#' + clean_id).first().offset().top;
 	var image_position = image_position_no_margin - margin_top;
@@ -269,8 +272,8 @@ function img_size() {
 	var window_width = $(window).width();
 	var window_proportion = window_width / window_height;
 
-	var menu_padding = $('#menu').css('padding');
-	var margin = parseInt(menu_padding)*2;
+	var gallery_padding = $('#gallery').css('padding');
+	var margin = parseInt(gallery_padding)*2;
 	
     $('.image img').css('max-width', window_width - margin).css('max-height', window_height - margin);
 	
