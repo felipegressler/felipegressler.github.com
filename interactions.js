@@ -117,14 +117,16 @@ $('.navpoint').addClass('not_viewed');
 
 function image_position() {
 	var gallery_padding = $('#gallery').css('padding');
-	var margin_top = parseInt(gallery_padding);
+	var legenda_height = $('.legenda').css('height');
+	var margin_top = parseInt(gallery_padding) - Math.ceil(parseInt(legenda_height)/5);
 	
-    var image_position = $(this).offset().top;
-    var scroll_position = window.pageYOffset;
-	
-    if (scroll_position > image_position - margin_top) {$(this).removeClass('viewed not_viewed viewing').addClass('viewed'); }
-    if (scroll_position < image_position - margin_top) {$(this).removeClass('viewed not_viewed viewing').addClass('not_viewed'); }
-    if (scroll_position == image_position - margin_top) {$(this).removeClass('viewed not_viewed viewing').addClass('viewing'); }   
+    var image_position_no_margin = $(this).offset().top;
+    var image_position = image_position_no_margin - margin_top;
+	var scroll_position = window.pageYOffset;
+
+	if (scroll_position > image_position) {$(this).removeClass('not_viewed viewing').addClass('viewed'); }
+    if (scroll_position < image_position) {$(this).removeClass('viewed viewing').addClass('not_viewed'); }
+    if (scroll_position == image_position) {$(this).removeClass('viewed not_viewed').addClass('viewing'); }   
     }
 
 function analyze_images() {$('.navpoint').each(image_position); }
@@ -145,7 +147,7 @@ function to_top() {
 function go_to_next() {
 	var gallery_padding = $('#gallery').css('padding');
 	var legenda_height = $('.legenda').css('height');
-	var margin_top = parseInt(gallery_padding) - parseInt(legenda_height)/5;
+	var margin_top = parseInt(gallery_padding) - Math.ceil(parseInt(legenda_height)/5);
 	
 	var image_position_no_margin = $('.not_viewed').first().offset().top;
     var image_position = image_position_no_margin - margin_top;
@@ -158,7 +160,7 @@ function go_to_next() {
 function go_to_previous() {
 	var gallery_padding = $('#gallery').css('padding');
 	var legenda_height = $('.legenda').css('height');
-	var margin_top = parseInt(gallery_padding) - parseInt(legenda_height)/5;
+	var margin_top = parseInt(gallery_padding) - Math.ceil(parseInt(legenda_height)/5);
 	
     var image_position_no_margin = $('.viewed').last().offset().top;
 	var image_position = image_position_no_margin - margin_top;
