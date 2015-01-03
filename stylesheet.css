@@ -280,10 +280,6 @@ img.before {z-index: 0;}
 
 /*Media Queries*/
 
-@media screen and (min-width:1750px) {
-	#menu a {width:235px; height: 235px;}
-	}
-
 @media screen and (max-width:814px) {
 	html {font-size: 14px;}
     #logo {width: 380px;}
