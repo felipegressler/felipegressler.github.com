@@ -413,74 +413,73 @@ $('#jewelry_link').on('click', function() {
 
 /*making of click*/
 
-$('#into_dust > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'into dust making of');
+$('#into_dust > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'into dust making of', 1);
 });
 
-$('#super > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'super making of');
+$('#super > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'super making of', 1);
 });
 
-$('#shampoo > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'shampoo making of');
+$('#shampoo > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'shampoo making of', 1);
 });
 
-$('#lettering_pills > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'lettering pills making of');
+$('#lettering_pills > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'lettering pills making of', 1);
 });
 
-$('#dog > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'dog making of');
+$('#dog > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'dog making of', 1);
 });
 
-$('#green_red > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'green red making of');
+$('#green_red > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'green red making of', 1);
 });
 
-$('#puppet > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'puppet making of');
+$('#puppet > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'puppet making of', 1);
 });
 
-$('#bottoms > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'bottoms making of');
+$('#bottoms > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bottoms making of', 1);
 });
 
-$('#train > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'train making of');
+$('#train > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'train making of', 1);
 });
 
-$('#bungee > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'bungee making of');
+$('#bungee > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bungee making of', 1);
 });
 
-$('#rain > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'rain making of');
+$('#rain > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'rain making of', 1);
 });
 
-$('#cupcake > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'cupcake making of');
+$('#cupcake > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'cupcake making of', 1);
 });
 
-$('#big_bicycle > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'big bicycle making of');
+$('#big_bicycle > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'big bicycle making of', 1);
 });
 
-$('#room_bags > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'room bags making of');
+$('#room_bags > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'room bags making of', 1);
 });
 
-$('#punk_bride > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'punk bride making of');
+$('#punk_bride > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'punk bride making of', 1);
 });
 
-$('#beach_red > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'beach red making of');
+$('#beach_red > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'beach red making of', 1);
 });
 
-$('#jewelry > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'jewelry making of');
+$('#jewelry > .main.visible').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'jewelry making of', 1);
 });
-
 
 
 
