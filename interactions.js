@@ -54,7 +54,7 @@ function legenda_up() {
 	}
 
 
-/*mostras antes*/
+/*mostrar antes*/
 
 function making_of() {
 	
@@ -97,7 +97,7 @@ function tag() {$(this).before("<div class='antes_tag'><p>Making of: Antes</p></
 $('.before').each(tag);
 
 
-/*creditos*/
+/*creditos
 
 $('.legenda').after("<div class='creditos'><div><p>+</p></div></div>");
 
@@ -334,3 +334,22 @@ function load_all_size_functions() {$(this).load(all_size_functions); }
 $('img').each(load_all_size_functions);
 $(window).resize(all_size_functions);
 $(window).scroll(all_size_functions);
+
+
+/*event analytics*/
+
+$('#into_dust_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'into dust link');
+});
+
+$('#into_dust > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'into dust mko_on');
+});
+
+$('#into_dust > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'into dust mko_off');
+});
+
+$('#down').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'btn_down');
+});
