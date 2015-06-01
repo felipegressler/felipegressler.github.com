@@ -413,145 +413,72 @@ $('#jewelry_link').on('click', function() {
 
 /*making of click*/
 
-$('#into_dust > .main.visible').on('click', function() {
+$('#into_dust > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'into dust making of');
 });
 
-$('#super > .main.visible').on('click', function() {
+$('#super > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'super making of');
 });
 
-$('#shampoo > .main.visible').on('click', function() {
+$('#shampoo > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'shampoo making of');
 });
 
-$('#lettering_pills > .main.visible').on('click', function() {
+$('#lettering_pills > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'lettering pills making of');
 });
 
-$('#dog > .main.visible').on('click', function() {
+$('#dog > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'dog making of');
 });
 
-$('#green_red > .main.visible').on('click', function() {
+$('#green_red > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'green red making of');
 });
 
-$('#puppet > .main.visible').on('click', function() {
+$('#puppet > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'puppet making of');
 });
 
-$('#bottoms > .main.visible').on('click', function() {
+$('#bottoms > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'bottoms making of');
 });
 
-$('#train > .main.visible').on('click', function() {
+$('#train > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'train making of');
 });
 
-$('#bungee > .main.visible').on('click', function() {
+$('#bungee > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'bungee making of');
 });
 
-$('#rain > .main.visible').on('click', function() {
+$('#rain > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'rain making of');
 });
 
-$('#cupcake > .main.visible').on('click', function() {
+$('#cupcake > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'cupcake making of');
 });
 
-$('#big_bicycle > .main.visible').on('click', function() {
+$('#big_bicycle > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'big bicycle making of');
 });
 
-$('#room_bags > .main.visible').on('click', function() {
+$('#room_bags > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'room bags making of');
 });
 
-$('#punk_bride > .main.visible').on('click', function() {
+$('#punk_bride > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'punk bride making of');
 });
 
-$('#beach_red > .main.visible').on('click', function() {
+$('#beach_red > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'beach red making of');
 });
 
-$('#jewelry > .main.visible').on('click', function() {
+$('#jewelry > .main').on('click', function() {
   ga('send', 'event', 'image', 'click', 'jewelry making of');
-});
-
-
-
-
-/*making of close*/
-
-$('#into_dust > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'into dust making of close');
-});
-
-$('#super > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'super making of close');
-});
-
-$('#shampoo > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'shampoo making of close');
-});
-
-$('#lettering_pills > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'lettering pills making of close');
-});
-
-$('#dog > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'dog making of close');
-});
-
-$('#green_red > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'green red making of close');
-});
-
-$('#puppet > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'puppet making of close');
-});
-
-$('#bottoms > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'bottoms making of close');
-});
-
-$('#train > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'train making of close');
-});
-
-$('#bungee > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'bungee making of close');
-});
-
-$('#rain > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'rain making of close');
-});
-
-$('#cupcake > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'cupcake making of close');
-});
-
-$('#big_bicycle > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'big bicycle making of close');
-});
-
-$('#room_bags > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'room bags making of close');
-});
-
-$('#punk_bride > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'punk bride making of close');
-});
-
-$('#beach_red > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'beach red making of close');
-});
-
-$('#jewelry > .main.invisible').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'jewelry making of close');
 });
 
 
