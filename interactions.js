@@ -336,20 +336,253 @@ $(window).resize(all_size_functions);
 $(window).scroll(all_size_functions);
 
 
-/*event analytics*/
+/*ANALYTICS EVENTS*/
+
+/*thumbnails*/
 
 $('#into_dust_link').on('click', function() {
-  ga('send', 'event', 'thumbnail', 'click', 'into dust link');
+  ga('send', 'event', 'thumbnail', 'click', 'into dust thumb');
 });
+
+$('#super_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'super thumb');
+});
+
+$('#shampoo_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'shampoo thumb');
+});
+
+$('#lettering_pills_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'lettering pills thumb');
+});
+
+$('#dog_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'dog thumb');
+});
+
+$('#green_red_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'green red thumb');
+});
+
+$('#puppet_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'puppet thumb');
+});
+
+$('#bottoms_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'bottoms thumb');
+});
+
+$('#train_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'train thumb');
+});
+
+$('#bungee_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'bungee thumb');
+});
+
+$('#rain_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'rain thumb');
+});
+
+$('#cupcake_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'cupcake thumb');
+});
+
+$('#big_bicycle_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'big bicycle thumb');
+});
+
+$('#room_bags_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'room bags thumb');
+});
+
+$('#punk_bride_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'punk bride thumb');
+});
+
+$('#beach_red_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'beach red thumb');
+});
+
+$('#jewelry_link').on('click', function() {
+  ga('send', 'event', 'thumbnail', 'click', 'jewelry thumb');
+});
+
+
+
+
+/*making of click*/
 
 $('#into_dust > .main').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'into dust mko_on');
+  ga('send', 'event', 'image', 'click', 'into dust making of');
 });
+
+$('#super > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'super making of');
+});
+
+$('#shampoo > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'shampoo making of');
+});
+
+$('#lettering_pills > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'lettering pills making of');
+});
+
+$('#dog > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'dog making of');
+});
+
+$('#green_red > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'green red making of');
+});
+
+$('#puppet > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'puppet making of');
+});
+
+$('#bottoms > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bottoms making of');
+});
+
+$('#train > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'train making of');
+});
+
+$('#bungee > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bungee making of');
+});
+
+$('#rain > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'rain making of');
+});
+
+$('#cupcake > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'cupcake making of');
+});
+
+$('#big_bicycle > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'big bicycle making of');
+});
+
+$('#room_bags > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'room bags making of');
+});
+
+$('#punk_bride > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'punk bride making of');
+});
+
+$('#beach_red > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'beach red making of');
+});
+
+$('#jewelry > .main').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'jewelry making of');
+});
+
+
+
+
+/*making of close*/
 
 $('#into_dust > .before').on('click', function() {
-  ga('send', 'event', 'image', 'click', 'into dust mko_off');
+  ga('send', 'event', 'image', 'click', 'into dust making of close');
 });
 
+$('#super > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'super making of close');
+});
+
+$('#shampoo > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'shampoo making of close');
+});
+
+$('#lettering_pills > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'lettering pills making of close');
+});
+
+$('#dog > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'dog making of close');
+});
+
+$('#green_red > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'green red making of close');
+});
+
+$('#puppet > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'puppet making of close');
+});
+
+$('#bottoms > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bottoms making of close');
+});
+
+$('#train > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'train making of close');
+});
+
+$('#bungee > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'bungee making of close');
+});
+
+$('#rain > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'rain making of close');
+});
+
+$('#cupcake > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'cupcake making of close');
+});
+
+$('#big_bicycle > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'big bicycle making of close');
+});
+
+$('#room_bags > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'room bags making of close');
+});
+
+$('#punk_bride > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'punk bride making of close');
+});
+
+$('#beach_red > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'beach red making of close');
+});
+
+$('#jewelry > .before').on('click', function() {
+  ga('send', 'event', 'image', 'click', 'jewelry making of close');
+});
+
+
+
+
+/*navigation*/
+
 $('#down').on('click', function() {
-  ga('send', 'event', 'button', 'click', 'btn_down');
+  ga('send', 'event', 'button', 'click', 'Button down');
+});
+
+$('#up').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'Button up');
+});
+
+$('#top').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'Button top');
+});
+
+$('#menu_button').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'Button menu');
+});
+
+
+
+/*contacts*/
+
+$('#email').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'Email');
+});
+
+$('#skype').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'Skype');
 });
