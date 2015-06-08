@@ -284,9 +284,9 @@ img.before {z-index: 0;}
 @media screen and (max-width:814px) {
 	html {font-size: 14px;}
     #logo {width: 380px;}
-    h1, h2 {display:inline-block; font-size: 43px; line-height: 1.1em; float: left; margin-right: 8px;}
-    address {display: block;}
-    address a {margin:0; font-size: 17px; margin-top: 22px;}
+    h1, h2 {display:inline-block; font-size: 43px; line-height: 1em; float: left; margin-right: 8px;}
+    address {display: block; margin-top: 2em;}
+    address a {margin:0; font-size: 16px; margin-top: 12px;}
     
     nav {display: none;}
     .legenda {display: none; height: 0;}
@@ -295,9 +295,10 @@ img.before {z-index: 0;}
 	}
 
 @media screen and (max-width:550px) {
-    html {font-size: 10px;}
-    h1, h2 {font-size: 36px}
-	address a {font-size: 15px; margin-top: 18px; letter-spacing: 1px;}
+    html {font-size: 10.5px;}
+    h1, h2 {font-size: 37px}
+	address {margin-top: 20px;}
+	address a {font-size: 15px; margin-top: 10px; letter-spacing: 1px;}
 	.antes_tag p {font-size: 12px;}
 	.legenda_icon {font-size: 14px;}
 	}
