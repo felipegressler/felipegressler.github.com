@@ -37,8 +37,9 @@ html {
 
 h1, h2 {
     display: block;
-    font-weight: 300;
-    font-size: 45px;
+    font-family: 'San Francisco Display';
+    font-weight: 200;
+    font-size: 48px;
     text-transform: uppercase;
     height: auto;
     line-height: 42px;
