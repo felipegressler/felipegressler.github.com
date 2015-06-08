@@ -281,6 +281,10 @@ img.before {z-index: 0;}
 
 /*Media Queries*/
 
+@media screen and (max-width:1106px) {
+	#menu a {width:160px; height:160px; margin: 3px;}
+	}
+
 @media screen and (max-width:814px) {
 	html {font-size: 14px;}
     #logo {width: 380px;}
